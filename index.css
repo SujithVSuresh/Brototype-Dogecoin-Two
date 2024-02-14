@@ -1,0 +1,596 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Neue", cursive;
+}
+        header{
+            background-color: black;
+            height: 75px;
+            position: fixed;
+            z-index: 1;
+            width: 100%;
+        } 
+
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        header img{
+            height: 40px;
+        }
+
+        body{
+
+            margin: 0px;
+            
+        } 
+
+      
+
+        footer{
+
+            background-color: black;
+            padding-right: 120px;
+            padding-left: 120px;
+            padding-top: 55px;
+           
+        }
+
+        #myVideo{
+            justify-content: center;
+            position: fixed;
+            z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 80%; 
+  width: 100%;
+  min-height: 100%;
+  object-fit: fill;
+         
+        } 
+
+
+        #topSection{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #topSection img{
+            margin-top: 50px;
+            height: 410px;
+            width: 500px;
+        
+        }
+
+        #topTextSection{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+        }
+
+        #topTextSection h1{
+            font-size: 5vw;
+            color: white;
+
+        }
+
+        #topTextSection p{
+            font-size: 1.6vw;
+            color: white;
+            font-weight:200;
+
+        }
+
+        #menuItems{
+          display: flex;
+          flex-direction: row;
+       
+       
+    
+        }
+
+        #menuItems a{
+            color: white;
+            margin-right: 15px;
+        }
+
+        #menuItems a:hover{
+            color: #dfc66d;
+            text-decoration: underline;
+        }
+
+        #menuItems:hover{
+            cursor: pointer;
+            
+        } 
+
+        #flag{
+            display: flex;
+            align-items: center;
+     
+        }
+
+        #flag:hover + #flagGroup{
+            display: block;
+            cursor: pointer;
+        }  
+
+        #soDoge:hover + #dropMenuContainer{
+            display: block;
+        }
+
+        
+
+        #flag p{
+            background-color: rgb(54, 53, 53);
+            padding: 3px 8px 3px 8px;
+            font-size: 13px;
+            border-radius: 5px;
+            font-weight: 600;
+            color: white;
+            margin-left: 5px;
+        }
+
+        #flagGroup{
+            background-color: rgb(39, 38, 38);
+            position: absolute;
+            padding: 0 15px 15px 15px;
+            top: 50px;
+            right: 40px;
+            display: none; 
+        }
+
+        #dropMenuContainer{
+            color: white;
+            background-color: rgb(18, 17, 17);
+            position: absolute;
+            top: 50px;
+            right: 220px;
+            display: none;
+        }
+
+        #dropMenuContainer p{
+            margin: 20px;
+
+        }
+
+
+
+        #flagGroup div{
+            margin-top: 10px;
+        }
+
+        #flag img{
+            width: 25px;
+            height: 17px;
+        
+        }
+
+        
+
+        #middleSection{
+            background-color: black;
+        
+
+        }
+
+        #whatIs{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        #whatIs h5{
+            line-height: 1.54;
+        }
+
+        #middleOne{
+          
+            display: flex;
+            justify-content: space-between;
+            padding-left: 120px;
+            padding-right: 120px;
+            padding-top: 100px;
+        }
+
+        #whatIsTwo{
+           
+            width: 350px;
+        }
+
+        #whatIsTwo h1{
+            font-size: 1.5rem;
+           
+        }
+
+        #whatIsTwo h3{
+            font-size: 1.1rem;
+        }
+
+        #whatIsTwo button{
+            margin-top: 20px;
+            width: 90px;
+            height: 40px;
+            color: white;
+            background-color: black;
+            border-width: 0.5;
+            border-color: white;
+        }
+
+        #whatIsTwo button:hover{
+            color: #dfc66d;
+            cursor: pointer;
+        }
+
+      
+
+        #doge{
+            display: flex;
+            justify-content: space-between;
+            padding-right: 120px;
+            padding-left: 120px;
+            margin-top: 100px;
+        }
+
+        #videodes h1{
+            color: white;
+            font-size: 45px;
+        }
+
+        #videodes h5{
+            color: white;
+            font-size: 1.25rem;
+            font-weight: 300;
+            margin-top: 10px;
+            line-height: 1.54;
+        }
+
+        #video{
+            display: flex;
+            flex-direction: row;
+            padding-right: 120px;
+            padding-left: 120px;
+            margin-top: 90px;
+        }
+
+        #video img{
+            width: 50%;
+        }
+
+        #videodes{
+       
+            padding-left: 25px;
+            margin-top: 20px;
+        }
+
+        #whatIs h1{
+            font-weight: 700;
+            font-size: 45px;
+            color: white;
+            margin-bottom: 20px;
+
+        }
+
+        #whatIs h3{
+            font-size: 1.55rem;
+            color: gainsboro;
+            margin-bottom: 20px;
+            font-weight: 200;
+
+        }
+
+        #whatIs h5{
+            font-size: 1.1rem;
+            color: gainsboro;
+            margin-bottom: 20px;
+
+        }
+
+
+        #middleTwo{
+            padding-right: 120px;
+            padding-left: 120px;
+            margin-top: 50px;
+        }
+
+    
+
+        #gettingStartedContainer{
+         
+            display: flex;
+            margin-top: 25px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        #middleTwo{
+            color: white;
+            font-size: 1.5em;
+        }
+
+      
+        #nmbrBox{
+            background-color: #dfc66d;
+            display: inline;
+            border-radius: 3px;
+            padding: 2px 10px 2px 10px;
+            margin-right: 10px;
+
+        }
+
+        #nmbrBoxContainer{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+
+        #social{
+            display: flex;
+            justify-content: space-between;
+            padding-right: 120px;
+            padding-left: 120px;
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
+
+        #bottomSection{
+            background-color: rgb(253, 249, 249);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 120px;
+            padding-left: 15px;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            
+        }
+
+        #bottomSection img{
+            height: 250px;
+            
+        }
+
+        #faqContainer p{
+          
+        
+            border-bottom:0.1px solid gray;
+            padding: 20px 80px 20px 20px;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+        #faqContainer p:hover{
+            color: #dfc66d;
+            cursor: pointer;
+        }
+
+
+        /* #qaContainer{
+           
+            border-color: black;
+            border-width: 5px;
+        } */
+
+        #qaContainer p{
+            padding: 20px;
+            font-weight: bold;
+            /* border: 0.1px solid gray; */
+        }
+
+        .relativeButton{
+            background-color: #dfc66d;
+            width: 200px;
+            height: 60px;
+            border: none;
+            border-radius: 30px;
+            font-size: 18px;
+            
+
+        }
+
+        .relativeButton:hover{
+            background-color: white;
+            border: 1px solid #dfc66d;
+            cursor: pointer;
+        }
+
+        .relativeButtonContainer{
+            position: relative;
+            bottom: 100px;
+            left: 0;
+            right: 0;
+            display: flex;
+           /* width: 90%; */
+            justify-content: center;
+            
+
+            
+        }
+
+        /* .qa1{
+            display: flex;
+        } */
+
+
+        /* .qa1{
+            background-color: aliceblue;
+          
+        }
+
+        .qa1 img{
+            width: 10px;
+            height: 5px;
+        } */
+
+        #visit{
+            background-color: rgb(246, 233, 208);
+            display: flex;
+            flex-direction: column;
+            width: 240px;
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+        #visit h1{
+            font-size: 1.25rem;
+            margin-top: 20px;
+        }
+
+        #visit p{
+            margin-top: 20px;
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+
+        #visit a{
+            margin-top: 20px;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            color: black;
+        }
+
+        #visit img{
+          height: 80px;
+          width: 80px;
+        }
+
+
+        #visitContainer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        #findOutMore{
+            text-align: center;
+            color: white;
+      
+        }
+
+        #footerDoge{
+            display: flex;
+            align-items: center;
+        }
+
+        #footerDoge h1{
+            margin-left: 10px;
+            font-weight: bold;
+            font-size: 1.7rem;
+        }
+
+        #footerBottomContainer{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            margin-top: 150px;
+        }
+
+        #footerDogeContainer{
+            width: 350px;
+     
+        }
+
+        #footerDogeContainer p{
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin-top: 10px;
+            color: gray;
+
+        }
+
+        #footerLegalContainer{
+        
+            width: 200px;
+        }
+
+
+        #footerLegalContainer h3{
+            font-size: 22px;
+
+        }
+
+        #footerLegalContainer p{
+            font-size: 0.9rem;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        #footerLegalContainer p:hover, #footerLegalContainer h3:hover{
+            color: #dfc66d;
+    
+
+        }
+
+        #footerLegalContainer p:hover{
+            cursor: pointer;
+
+        }
+
+
+
+
+        #copyright{
+            color: gray;
+            font-weight: 400;
+            text-align: center;
+            border-top:0.75px solid gray;
+            margin-top: 50px;
+            padding-top: 10px;
+            padding-bottom: 50px;
+            
+        }
+
+        #copyright p{
+            margin-top: 10px;
+        }
+
+        #copyright p:hover{
+            color: #dfc66d;
+            cursor: pointer;
+        }
+
+
+        #comment{
+            /* width:100px; */
+            height: 100px;
+            background-color: white;
+            position: absolute;
+            top:110px;
+            left: 1150px;
+        }
+
+
+        #shibaInu, #faq{
+            color: #dfc66d;
+        }
+
+        /* #drop{
+            background-color: blueviolet;
+            width: 400px;
+            padding: 20px 0 20px 0;
+            display: none;
+        } */
+
+
+        
+
+
+
+       
+    
+
+        
+
+    
